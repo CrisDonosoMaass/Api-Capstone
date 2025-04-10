@@ -1,0 +1,17 @@
+{
+  "name": "@aeperaltarivastests/react-native-ui-library",
+  "version": "1.0.0",
+  "description": "Common UI library",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "react-native-svg": "^15.0.0",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/zxcvbn": "^4.4.4"
+  }
+}

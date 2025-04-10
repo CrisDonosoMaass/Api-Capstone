@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 7.3.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CB_FRONT_API_URL": "https://dev.cb-front-api.currencybird.cl",
+        "EXPO_PUBLIC_CB_FRONT_PRIVATE_URL": "https://dev.private.currencybird.cl",
+        "EXPO_PUBLIC_ANALYTICS_ENABLED": "false"
+      },
+      "channel": "dev"
+    },
+    "staging": {
+      "developmentClient": false,
+      "distribution": "store",
+      "env": {
+        "EXPO_PUBLIC_CB_FRONT_API_URL": "https://dev.cb-front-api.currencybird.cl",
+        "EXPO_PUBLIC_CB_FRONT_PRIVATE_URL": "https://dev.private.currencybird.cl",
+        "EXPO_PUBLIC_ANALYTICS_ENABLED": "true"
+      },
+      "channel": "staging"
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./credentials/android/serviceKey.json",
+        "track": "production"
+      },
+      "ios": {
+        "ascAppId": "6503993314",
+        "sku": "cl.currencybird.cbmobileapp",
+        "language": "es-MX",
+        "companyName": "Currency Bird Spa",
+        "ascApiKeyPath": "./credentials/ios/apiKey.p8",
+        "ascApiKeyIssuerId": "cb675b24-8fa8-4845-8a38-7e5af88134a4",
+        "ascApiKeyId": "HLKVMGR44R"
+      }
+    }
+  }
+}

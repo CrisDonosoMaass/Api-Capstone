@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "CurrencyBird",
+    "slug": "cb-mobile-app",
+    "description": "La ruta perfecta para transferir al extranjero",
+    "owner": "currencybird",
+    "version": "2.7.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "currencybird",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004F71"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "currency-bird-spa",
+          "project": "mobile-app"
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT_UP"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow CurrencyBird to access your camera."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Black.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-BlackItalic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBoldItalic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Italic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Light.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-LightItalic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf",
+            "./assets/fonts/RedHatDisplay/RedHatDisplay-SemiBoldItalic.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
+  }
+}

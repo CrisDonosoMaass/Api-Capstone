@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+      // "@currencybird/cb-front-validators": [
+      //   "../../../../../cb-front-api-serverless/packages/validators/dist/packages/validators/src"
+      // ],
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}

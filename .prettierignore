@@ -1,0 +1,12 @@
+.next
+.vscode
+coverage
+node_modules
+package.json
+package-lock.json
+yarn.lock
+android
+.storybook
+**/*.hbs
+dist
+package.template.json
