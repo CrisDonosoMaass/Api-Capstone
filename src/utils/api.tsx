@@ -7,7 +7,7 @@ import { httpBatchLink, loggerLink } from '@trpc/client';
 import { createTRPCReact } from '@trpc/react-query';
 import { observable } from '@trpc/server/observable';
 
-import type { AppRouter } from '@aeperaltarivastests/cb-front-api';
+import type { AppRouter } from '@crisdonosomaass/cb-front-api';
 import { useAuth } from '../hooks/auth';
 import { useAppState } from '../hooks/query';
 import { isTRPCClientError } from './errors';

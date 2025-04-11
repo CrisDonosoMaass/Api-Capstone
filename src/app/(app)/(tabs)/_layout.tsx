@@ -8,7 +8,7 @@ import { Ionicons } from '@expo/vector-icons';
 import {
   BottomTabsModal,
   Colors,
-} from '@aeperaltarivastests/react-native-ui-library';
+} from '@crisdonosomaass/react-native-ui-library';
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.

@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { Text, useTheme } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import { useLocale } from '@aeperaltarivastests/react-native-ui-library';
+import { useLocale } from '@crisdonosomaass/react-native-ui-library';
 
 import OpacityPressable from '../../components/Common/OpacityPressable';
 

@@ -29,7 +29,7 @@ module.exports = {
             position: 'before',
           },
           {
-            pattern: '@aeperaltarivastests/**',
+            pattern: '@crisdonosomaass/**',
             group: 'external',
             position: 'after',
           },

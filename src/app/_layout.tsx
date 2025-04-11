@@ -18,9 +18,9 @@ import {
   fontFamilies,
   PublicTheme,
   TranslationsProvider,
-} from '@aeperaltarivastests/react-native-ui-library';
+} from '@crisdonosomaass/react-native-ui-library';
 
-import type { Locale } from '@aeperaltarivastests/react-native-ui-library';
+import type { Locale } from '@crisdonosomaass/react-native-ui-library';
 import { AuthProvider } from '../contexts/AuthContext';
 import enAppMessages from '../messages/en';
 import esAppMessages from '../messages/es';

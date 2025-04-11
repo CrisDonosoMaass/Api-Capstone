@@ -37,9 +37,9 @@
     ]
   },
   "dependencies": {
-    "@aeperaltarivastests/cb-front-api": "^0.0.1",
-    "@aeperaltarivastests/cb-front-validators": "^0.0.1",
-    "@aeperaltarivastests/react-native-ui-library": "file:packages/react-native-ui-library",
+    "@crisdonosomaass/cb-front-api": "^0.0.1",
+    "@crisdonosomaass/cb-front-validators": "^0.0.2",
+    "@crisdonosomaass/react-native-ui-library": "file:packages/react-native-ui-library",
     "@date-fns/utc": "^2.1.0",
     "@expo/vector-icons": "^14.0.0",
     "@formatjs/intl-datetimeformat": "^6.13.0",

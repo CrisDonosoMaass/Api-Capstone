@@ -4,9 +4,9 @@ import * as Linking from 'expo-linking';
 import { router, useFocusEffect } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 
-import { LoginComponent } from '@aeperaltarivastests/react-native-ui-library';
+import { LoginComponent } from '@crisdonosomaass/react-native-ui-library';
 
-import type { LoginValues } from '@aeperaltarivastests/react-native-ui-library';
+import type { LoginValues } from '@crisdonosomaass/react-native-ui-library';
 import { useAuth, useLogin } from '../../hooks/auth';
 import { storage } from '../../utils/storage';
 import Toast from '../../utils/toast';

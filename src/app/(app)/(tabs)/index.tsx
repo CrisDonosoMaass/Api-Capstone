@@ -10,9 +10,9 @@ import {
   DashboardTopBar,
   GoBackDialog,
   PrivateLayout,
-} from '@aeperaltarivastests/react-native-ui-library';
+} from '@crisdonosomaass/react-native-ui-library';
 
-import type { TopBarProps } from '@aeperaltarivastests/react-native-ui-library';
+import type { TopBarProps } from '@crisdonosomaass/react-native-ui-library';
 import { useLogout, useSession } from '../../../hooks/auth';
 
 export default function TabOneScreen() {

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useTheme } from 'react-native-paper';
 
-import { ActivityIndicator } from '@aeperaltarivastests/react-native-ui-library';
+import { ActivityIndicator } from '@crisdonosomaass/react-native-ui-library';
 
 import { useLogout } from '../../hooks/auth';
 

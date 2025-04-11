@@ -8,7 +8,7 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": ["src/*"],
-      "@aeperaltarivastests/react-native-ui-library": [
+      "@crisdonosomaass/react-native-ui-library": [
         "./packages/react-native-ui-library/src"
       ]
     }

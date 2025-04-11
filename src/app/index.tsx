@@ -7,7 +7,7 @@ import { Link, router } from 'expo-router';
 import {
   ActivityIndicator,
   Welcome,
-} from '@aeperaltarivastests/react-native-ui-library';
+} from '@crisdonosomaass/react-native-ui-library';
 
 import { useSession } from '../hooks/auth';
 

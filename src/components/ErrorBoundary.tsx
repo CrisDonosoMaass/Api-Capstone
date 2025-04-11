@@ -5,7 +5,7 @@ import GoogleIcon from 'react-native-vector-icons/MaterialIcons';
 import type { ViewStyle } from 'react-native';
 import { useTranslations } from 'use-intl';
 
-import { Button, Colors } from '@aeperaltarivastests/react-native-ui-library';
+import { Button, Colors } from '@crisdonosomaass/react-native-ui-library';
 
 import {
   isClientError,

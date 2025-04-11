@@ -9,7 +9,7 @@ import {
   useLocalSearchParams,
 } from 'expo-router';
 
-import { ActivityIndicator } from '@aeperaltarivastests/react-native-ui-library';
+import { ActivityIndicator } from '@crisdonosomaass/react-native-ui-library';
 
 import { useSession } from '../../hooks/auth';
 

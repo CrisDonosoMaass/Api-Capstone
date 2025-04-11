@@ -1,6 +1,6 @@
 import { TRPCClientError } from '@trpc/client';
 
-import type { AppRouter } from '@aeperaltarivastests/cb-front-api';
+import type { AppRouter } from '@crisdonosomaass/cb-front-api';
 
 export type ApiError = TRPCClientError<AppRouter>;
 

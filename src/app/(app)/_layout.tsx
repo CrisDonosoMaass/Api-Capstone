@@ -10,9 +10,9 @@ import { useTranslations } from 'use-intl';
 import {
   ActivityIndicator,
   PrivateTheme,
-} from '@aeperaltarivastests/react-native-ui-library';
+} from '@crisdonosomaass/react-native-ui-library';
 
-import ExpoPushTokenManager from '../../components/ExpoPushTokenManager';
+//import ExpoPushTokenManager from '../../components/ExpoPushTokenManager';
 import { useSession } from '../../hooks/auth';
 
 export default function DrawerLayout() {
@@ -86,7 +86,7 @@ export default function DrawerLayout() {
           />
         </Drawer>
       </GestureHandlerRootView>
-      <ExpoPushTokenManager />
+      {/* <ExpoPushTokenManager /> */}
     </ThemeProvider>
   );
 }
